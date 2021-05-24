@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chess4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="751.174" Width="657.054">
-    <Grid RenderTransformOrigin="0.5,0.5" Margin="1,-1,33,73">
+        Title="MainWindow" Height="752.329" Width="657.054">
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="1,-1,33,32">
         <Grid.RenderTransform>
             <TransformGroup>
                 <ScaleTransform/>
@@ -95,6 +95,12 @@
         <Label x:Name="lblY2" Content="Y3" HorizontalAlignment="Left" Height="28" Margin="619,185,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
         <Label x:Name="lblY1" Content="Y2" HorizontalAlignment="Left" Height="28" Margin="619,111,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
         <Label x:Name="lblY0" Content="Y1" HorizontalAlignment="Left" Height="28" Margin="619,29,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
+        <Button x:Name="btnKing" Content="King" HorizontalAlignment="Left" Height="36" Margin="11,668,0,-58" VerticalAlignment="Top" Width="71" Click="btnKing_Click" Background="#FFE2BD6D"/>
+        <Button x:Name="btnQueen" Content="Queen" HorizontalAlignment="Left" Height="36" Margin="116,668,0,-51" VerticalAlignment="Top" Width="71" Click="btnKing_Click" Background="#FF6C4204"/>
+        <Button x:Name="btnBishop" Content="Bishop" HorizontalAlignment="Left" Height="36" Margin="220,668,0,-58" VerticalAlignment="Top" Width="71" Click="btnKing_Click" Background="#FFE2BD6D"/>
+        <Button x:Name="btnKnight" Content="Knight" HorizontalAlignment="Left" Height="36" Margin="326,668,0,-58" VerticalAlignment="Top" Width="71" Click="btnKing_Click" Background="#FF6C4204"/>
+        <Button x:Name="btnRook" Content="Rook" HorizontalAlignment="Left" Height="36" Margin="434,668,0,-58" VerticalAlignment="Top" Width="71" Click="btnKing_Click" Background="#FFE2BD6D"/>
+        <Button x:Name="btnPawn" Content="Pawn" HorizontalAlignment="Left" Height="36" Margin="543,668,0,-58" VerticalAlignment="Top" Width="71" Click="btnKing_Click" Background="#FF6C4204"/>
 
     </Grid>
 </Window>

@@ -24,5 +24,10 @@ namespace Chess4
         {
             InitializeComponent();
         }
+
+        private void btnKing_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

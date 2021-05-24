@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chess4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="654.099" Width="632.786">
-    <Grid>
+        Title="MainWindow" Height="751.174" Width="657.054">
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="1,-1,33,73">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.28"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
         <Button x:Name="btnX0Y5" Content="" HorizontalAlignment="Left" Height="71" Margin="11,391,0,0" VerticalAlignment="Top" Width="71" Background="#FF6C4204"/>
         <Button x:Name="btnX1Y5" Content="" HorizontalAlignment="Left" Height="71" Margin="87,391,0,0" VerticalAlignment="Top" Width="71" Background="#FFE2BD6D"/>
         <Button x:Name="btnX2Y5" Content="" HorizontalAlignment="Left" Height="71" Margin="163,391,0,0" VerticalAlignment="Top" Width="71" Background="#FF6C4204"/>
@@ -71,6 +79,22 @@
         <Button x:Name="btnX5Y6" Content="" HorizontalAlignment="Left" Height="71" Margin="391,467,0,0" VerticalAlignment="Top" Width="71" Background="#FF6C4204"/>
         <Button x:Name="btnX6Y6" Content="" HorizontalAlignment="Left" Height="71" Margin="467,467,0,0" VerticalAlignment="Top" Width="71" Background="#FFE2BD6D"/>
         <Button x:Name="btnX7Y6" Content="" HorizontalAlignment="Left" Height="71" Margin="543,467,0,0" VerticalAlignment="Top" Width="71" Background="#FF6C4204"/>
+        <Label x:Name="lblX0" Content="X1" HorizontalAlignment="Left" Height="28" Margin="33,619,0,-20" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
+        <Label x:Name="lblX1" Content="X2" HorizontalAlignment="Left" Height="28" Margin="107,619,0,-20" VerticalAlignment="Top" Width="34" RenderTransformOrigin="1.555,0.606"/>
+        <Label x:Name="lblX2" Content="X3" HorizontalAlignment="Left" Height="28" Margin="183,619,0,-20" VerticalAlignment="Top" Width="33" RenderTransformOrigin="1.12,0.551"/>
+        <Label x:Name="lblX3" Content="X4" HorizontalAlignment="Left" Height="28" Margin="260,619,0,-20" VerticalAlignment="Top" Width="31"/>
+        <Label x:Name="lblX4" Content="X5" HorizontalAlignment="Left" Height="28" Margin="336,619,0,-20" VerticalAlignment="Top" Width="31" RenderTransformOrigin="0.763,0.568"/>
+        <Label x:Name="lblX5" Content="X6" HorizontalAlignment="Left" Height="28" Margin="414,619,0,-20" VerticalAlignment="Top" Width="29"/>
+        <Label x:Name="lblX6" Content="X7" HorizontalAlignment="Left" Height="28" Margin="487,619,0,-20" VerticalAlignment="Top" Width="32"/>
+        <Label x:Name="lblX7" Content="X8" HorizontalAlignment="Left" Height="28" Margin="566,619,0,-20" VerticalAlignment="Top" Width="31"/>
+        <Label x:Name="lblY7" Content="Y8" HorizontalAlignment="Left" Height="28" Margin="619,568,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
+        <Label x:Name="lblY6" Content="Y7" HorizontalAlignment="Left" Height="28" Margin="619,486,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
+        <Label x:Name="lblY5" Content="Y6" HorizontalAlignment="Left" Height="28" Margin="619,413,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
+        <Label x:Name="lblY4" Content="Y5" HorizontalAlignment="Left" Height="28" Margin="619,337,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
+        <Label x:Name="lblY3" Content="Y4" HorizontalAlignment="Left" Height="28" Margin="619,262,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
+        <Label x:Name="lblY2" Content="Y3" HorizontalAlignment="Left" Height="28" Margin="619,185,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
+        <Label x:Name="lblY1" Content="Y2" HorizontalAlignment="Left" Height="28" Margin="619,111,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
+        <Label x:Name="lblY0" Content="Y1" HorizontalAlignment="Left" Height="28" Margin="619,29,-23,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.941,0.413"/>
 
     </Grid>
 </Window>

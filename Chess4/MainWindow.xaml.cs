@@ -20,7 +20,8 @@ namespace Chess4
     /// </summary>
     public partial class MainWindow : Window
     {
-        public Window1 WinNewgame;
+
+        public Window2 Window2;
         public MainWindow()
         {
             InitializeComponent();
@@ -28,8 +29,8 @@ namespace Chess4
 
         private void btnKing_Click(object sender, RoutedEventArgs e)
         {
-            WinNewgame = new Window1();
-            WinNewgame.Show();
+            Window2 = new Window2();
+            Window2.Show();
         }
     }
 }

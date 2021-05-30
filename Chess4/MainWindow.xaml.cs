@@ -22,6 +22,7 @@ namespace Chess4
     {
 
         public Window2 Window2;
+        public Window1 Window1;
         public MainWindow()
         {
             InitializeComponent();
@@ -31,6 +32,20 @@ namespace Chess4
         {
             Window2 = new Window2();
             Window2.Show();
+        }
+
+        private void btnX0Y0_Click(object sender, RoutedEventArgs e)
+        {
+            //cont = " ";
+
+            Window1 = new Window1();
+
+            Window1.Owner = this;
+
+            Window1.Show();
+
+            btnX0Y0.FontSize = 24;
+            btnX0Y0.Content = "K";
         }
     }
 }

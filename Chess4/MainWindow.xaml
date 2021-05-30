@@ -55,7 +55,7 @@
         <Button x:Name="btnX5Y1" Content="" HorizontalAlignment="Left" Height="71" Margin="391,86,0,0" VerticalAlignment="Top" Width="71" Background="#FFE2BD6D"/>
         <Button x:Name="btnX6Y1" Content="" HorizontalAlignment="Left" Height="71" Margin="467,86,0,0" VerticalAlignment="Top" Width="71" Background="#FF6C4204"/>
         <Button x:Name="btnX7Y1" Content="" HorizontalAlignment="Left" Height="71" Margin="543,86,0,0" VerticalAlignment="Top" Width="71" Background="#FFE2BD6D"/>
-        <Button x:Name="btnX0Y0" Content="" HorizontalAlignment="Left" Height="71" Margin="11,10,0,0" VerticalAlignment="Top" Width="71" Background="#FFE2BD6D"/>
+        <Button x:Name="btnX0Y0" Content="" HorizontalAlignment="Left" Height="71" Margin="11,10,0,0" VerticalAlignment="Top" Width="71" Background="#FFE2BD6D" Click="btnX0Y0_Click"/>
         <Button x:Name="btnX1Y0" Content="" HorizontalAlignment="Left" Height="71" Margin="87,10,0,0" VerticalAlignment="Top" Width="71" Background="#FF6C4204"/>
         <Button x:Name="tbnX2Y0" Content="" HorizontalAlignment="Left" Height="71" Margin="163,10,0,0" VerticalAlignment="Top" Width="71" Background="#FFE2BD6D"/>
         <Button x:Name="tbnX3Y0" Content="" HorizontalAlignment="Left" Height="71" Margin="239,10,0,0" VerticalAlignment="Top" Width="71" Background="#FF6C4204"/>
